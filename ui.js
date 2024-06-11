@@ -1,7 +1,7 @@
 const { createApp } = Vue
 const { createVuetify } = Vuetify
 
-import {project_card} from '../components/project-card/script.js'
+import {ProjectCard} from '../components/project-card/script.js'
 // const ProjectCard = {
 //     template: '#project-card-template',
 //     props:{
@@ -27,7 +27,7 @@ import {project_card} from '../components/project-card/script.js'
 const vuetify3 = createVuetify()
 const app = createApp({
     components: {
-        project_card
+        ProjectCard
     },
     data: function(){
         return {
