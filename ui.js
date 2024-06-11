@@ -20,8 +20,7 @@ const app = createApp({
         async get_config(){
             let res = await fetch('config.json')
             console.log(1, res)
-            let res_2 = await fetch('https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/config.json')
-            console.log(2, res_2)
+            console.log('1.json', res.json())
         }
 
     }
