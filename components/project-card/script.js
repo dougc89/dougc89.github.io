@@ -1,4 +1,4 @@
-export const project_card = {
+export const ProjectCard = {
     template: '#project-card-template',
     props:{
         project: {
