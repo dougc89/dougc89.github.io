@@ -2,27 +2,6 @@ const { createApp } = Vue
 const { createVuetify } = Vuetify
 
 import {ProjectCard} from '../components/project-card/script.js'
-// const ProjectCard = {
-//     template: '#project-card-template',
-//     props:{
-//         project: {
-//             default: null
-//         }
-//     },
-//     data(){
-//         return {
-
-//         }
-//     },
-//     computed: {
-//         title(){
-//             return this.project ? `${this.project.title}` :  'Title goes here...'
-//         },
-//         subtitle(){
-//             return this.project ? `${this.project.date}` :  'Month of completion goes here...'    
-//         }
-//     }
-// }
 
 const vuetify3 = createVuetify()
 const app = createApp({
@@ -33,6 +12,18 @@ const app = createApp({
         return {
             message: "Hello to the World"
         }
+    },
+    mounted(){
+        this.get_config()
+    },
+    methods:{
+        async get_config(){
+            let res = await fetch('config.json')
+            console.log(1, res)
+            let res_2 = await fetch('https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/config.json')
+            console.log(2, res_2)
+        }
+
     }
 })
 app.use(vuetify3).mount('#app')
