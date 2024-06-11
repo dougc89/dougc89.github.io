@@ -1,3 +1,12 @@
 {
-    "project": "foo"
+    "projects": [
+        {
+            "title": "Timesheets",
+            "date": "January 2020"
+        },
+        {
+            "title": "Civil Process",
+            "date": "Aug 2020"
+        }
+    ]
 }

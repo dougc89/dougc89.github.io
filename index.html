@@ -12,7 +12,9 @@
 </head>
 <body>
     <div id="app">
-        <project-card></project-card>
+        <div v-if="config">
+            <project-card v-for="project in config.projects" :project="project"></project-card>
+        </div>
     </div>
 
 
