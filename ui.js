@@ -1,5 +1,5 @@
-const { createApp } = Vue
-const { createVuetify } = Vuetify
+import { createApp } from 'vue'
+import { createVuetify } from 'vuetify'
 const vuetify3 = createVuetify()
 const app = createApp({
     data: function(){
