@@ -3,7 +3,12 @@ const { createVuetify } = Vuetify
 
 import {ProjectCard} from '../components/project-card/script.js'
 
-const vuetify3 = createVuetify()
+const vuetify3 = createVuetify({
+    theme: {
+        defaultTheme: 'dark'
+    }
+})
+
 const app = createApp({
     components: {
         ProjectCard
