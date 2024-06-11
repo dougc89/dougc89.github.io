@@ -2,11 +2,22 @@
     "projects": [
         {
             "title": "Timesheets",
-            "date": "January 2020"
+            "date": "Jan 2020",
+            "skills": [
+                "PHP",
+                "jQuery",
+                "SQL Server",
+                "Python"
+            ]
         },
         {
             "title": "Civil Process",
-            "date": "Aug 2020"
+            "date": "Aug 2020",
+            "skills": [
+                "PHP",
+                "jQuery",
+                "SQL Server"
+            ]
         }
     ]
 }

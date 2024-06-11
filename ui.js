@@ -12,6 +12,7 @@ const app = createApp({
         return {
             message: "Hello to the World",
             config: null,
+            skills: [],
         }
     },
     mounted(){
@@ -19,10 +20,18 @@ const app = createApp({
     },
     methods:{
         async get_config(){
+            // read the project list
             let res = await fetch('config.json')
-            console.log(1, res)
             this.config = await res.json()
-            console.log(this.config)
+
+            // organize all skills into a list of lists, then flatten into a 1D array
+            this.skills = this.config.projects.map( project => project.skills ).flat()
+            console.log(this.skills)
+
+            // remove duplicates with set conversion
+            this.skills = [... new Set(this.skills)]
+            console.log(this.skills)
+
         }
 
     }
