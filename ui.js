@@ -25,12 +25,10 @@ const app = createApp({
             this.config = await res.json()
 
             // organize all skills into a list of lists, then flatten into a 1D array
-            this.skills = this.config.projects.map( project => project.skills ).flat()
-            console.log(this.skills)
+            let all_skills = this.config.projects.map( project => project.skills ).flat()
 
             // remove duplicates with set conversion
-            this.skills = [... new Set(this.skills)]
-            console.log(this.skills)
+            this.skills = [... new Set(all_skills)]
 
         }
 

@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.css" type="text/css">
 </head>
 <body>
-    <div id="app">
+    <div id="app" dark>
         <div v-if="config && config.projects">
             <project-card 
             v-for="project in config.projects" 
             :key="`project_${project.title.replace(/ /g, '_')}`"
-            :project="project"></project-card>
+            :project="project"
+            class="mt-4"
+            ></project-card>
         </div>
     </div>
 
@@ -27,9 +29,10 @@
 
     <!-- project-card: -->
      <script type="vue-template" id="project-card-template">
-        <v-card
+        <v-card 
         :title='title'
-        :subtitle='subtitle'>
+        :subtitle='subtitle'
+        dark >
         <v-card-text>
             We will insert skills here...
         </v-card-text>
