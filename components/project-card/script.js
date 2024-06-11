@@ -1,4 +1,4 @@
-export default Vue.component('project-card',{
+export default {
     template: '#project-card-template',
     props:{
         project: {
@@ -18,4 +18,4 @@ export default Vue.component('project-card',{
             return this.project ? `${this.project.date}` :  'Month of completion goes here...'    
         }
     }
-})
+}

@@ -5,6 +5,9 @@ import project_card from '../components/project-card/script.js'
 
 const vuetify3 = createVuetify()
 const app = createApp({
+    components: {
+        project_card
+    },
     data: function(){
         return {
             message: "Hello to the World"
