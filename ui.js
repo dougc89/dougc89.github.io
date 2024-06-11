@@ -1,5 +1,7 @@
-const vuetify3 = Vuetify()
-const app = Vue({
+const { createApp } = Vue
+const { createVuetify } = Vuetify
+const vuetify3 = createVuetify()
+const app = createApp({
     data: function(){
         return {
             message: "Hello to the World"
