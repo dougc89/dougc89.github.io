@@ -1,4 +1,4 @@
-export default {
+const project_card = {
     template: '#project-card-template',
     props:{
         project: {
@@ -19,3 +19,4 @@ export default {
         }
     }
 }
+export default project_card
