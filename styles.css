@@ -1,3 +1,13 @@
-.red-background{
-    background-color: red;
+
+.project-list{
+    max-width: 80vw;
+ }  
+@media (min-width: 1200px){
+    .project-list{
+        max-width: 1200px;
+    }
+}
+
+.v-card-title{
+    color: #EEEEEE;
 }
