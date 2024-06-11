@@ -10,7 +10,8 @@ const app = createApp({
     },
     data: function(){
         return {
-            message: "Hello to the World"
+            message: "Hello to the World",
+            config: null,
         }
     },
     mounted(){
@@ -20,7 +21,8 @@ const app = createApp({
         async get_config(){
             let res = await fetch('config.json')
             console.log(1, res)
-            console.log('1.json', res.json())
+            this.config = await res.json()
+            console.log(this.config)
         }
 
     }
