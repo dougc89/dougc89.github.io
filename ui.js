@@ -27,7 +27,7 @@ import project_card from '../components/project-card/script.js'
 const vuetify3 = createVuetify()
 const app = createApp({
     components: {
-        ProjectCard
+        project_card
     },
     data: function(){
         return {
