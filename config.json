@@ -1,8 +1,10 @@
 {
     "projects": [
         {
+            "_id": 1,
             "title": "Timesheets",
             "date": "Jan 2020",
+            "description": "Payroll time & attendance",
             "skills": [
                 "PHP",
                 "jQuery",
@@ -11,8 +13,10 @@
             ]
         },
         {
+            "_id": 2,
             "title": "Civil Process",
             "date": "Aug 2020",
+            "description": "Tracking high volume civil document service",
             "skills": [
                 "PHP",
                 "jQuery",

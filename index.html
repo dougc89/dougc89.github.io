@@ -15,7 +15,7 @@
         <div v-if="config && config.projects">
             <project-card 
             v-for="project in config.projects" 
-            :key="`project_${project.title.replace(/ /g, '_')}`"
+            :key="`project_${project._id}`"
             :project="project"
             class="mt-4"
             ></project-card>
@@ -33,9 +33,15 @@
         :title='title'
         :subtitle='subtitle'
         variant='tonal' color='teal'>
-        <v-card-text>
-            We will insert skills here...
-        </v-card-text>
+            <v-card-text>
+                {{project.description}}
+            </v-card-text>
+            <v-card-text>
+                <v-chip 
+                v-for='(skill,index) in project.skills'
+                :key='`${project._id}_skill_${index}`' 
+                >{{skill}}</v-chip>
+            </v-card-text>
         </v-card>
      </script>
 
