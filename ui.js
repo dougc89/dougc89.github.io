@@ -28,7 +28,7 @@ const app = createApp({
         filtered_projects(){
             if(this.selected_skills.length){
                 // remove any projects that do not include the skills we are filtering for
-                return this.projects.filter(project => project.skills.some(skill => this.selected_skills.includes(skill)))
+                return this.projects.filter(project => this.selected_skills.every(skill => project.skills.includes(skill)))
             }else{
                 return this.projects
             }
@@ -66,7 +66,10 @@ const app = createApp({
         update_skills(skills){
             console.log('gotcha bro', skills)
             this.selected_skills = skills
-        }
+        },
+        reset_skills(){
+            this.selected_skills = []
+        },
 
     }
 })

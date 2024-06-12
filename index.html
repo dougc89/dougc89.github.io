@@ -22,7 +22,7 @@
     :skills_map="skills_map"
     :selected_skills="selected_skills"
     ></skills-drawer>
-    <div v-if="projects" class="project-list">
+    <div v-if="filtered_projects.length" class="project-list">
         <project-card 
         v-for="project in filtered_projects" 
         :key="`project_${project._id}`"
@@ -31,6 +31,12 @@
         class="mt-4"
         @update:skills="update_skills"
         ></project-card>
+    </div>
+    <div v-else class="project-list">
+        There are no projects matching that exact combination of skills. 
+        <v-btn
+        @click="reset_skills"
+        text>Reset Skill Filter</v-btn>
     </div>
     </v-app>
 </div>
@@ -65,10 +71,11 @@
 <script type="vue-template" id="skills-drawer-template">
 <v-navigation-drawer :width='width' >
     <v-list density='compact'>
-        <v-list-item title='Skills' subtitle='Used in Projects'></v-list-item>
+        <v-list-item title="Doug's Skills" subtitle='Used in Projects'></v-list-item>
         <v-list-item
         v-for='(skill,index) in skills_list' 
-        :key='`skill_drawer_${index}`'>
+        :key='`skill_drawer_${index}`'
+        density='compact'>
             <v-checkbox 
             v-model='modelValue'
             @update:model-value='input_handler'
@@ -76,6 +83,8 @@
             :true-value='skill'
             :color='color'
             :value='skill'
+            density='compact'
+            hide-details
             multiple></v-checkbox>
         </v-list-item>
     </v-list>
