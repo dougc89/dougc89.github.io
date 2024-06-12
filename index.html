@@ -60,7 +60,8 @@
     :key='`skill_drawer_${index}`'
     >
     <v-checkbox 
-    v-model='value'
+    v-model='modelValue'
+    @update:model-value='input_handler'
     :label='`${skill} (${skills_map[skill]})`'></v-checkbox>
     </v-list-item>
 

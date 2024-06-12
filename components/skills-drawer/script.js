@@ -19,5 +19,9 @@ export const SkillsDrawer = {
     computed: {
     },
     methods: {
+        input_handler(val){
+            console.log('modelling', val)
+            this.$emit('update:model-value', val)
+        }
     }
 }
