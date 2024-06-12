@@ -24,7 +24,7 @@
     ></skills-drawer>
     <div v-if="projects" class="project-list">
         <project-card 
-        v-for="project in projects" 
+        v-for="project in filtered_projects" 
         :key="`project_${project._id}`"
         :project="project"
         :selected_skills='selected_skills'
@@ -67,7 +67,8 @@
     <v-list>
         <v-list-item
         v-for='(skill,index) in skills_list' 
-        :key='`skill_drawer_${index}`'>
+        :key='`skill_drawer_${index}`'
+        density='compact'>
             <v-checkbox 
             v-model='modelValue'
             @update:model-value='input_handler'
