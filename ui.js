@@ -30,14 +30,24 @@ const app = createApp({
             let res = await fetch('projects.json')
             this.projects= await res.json()
 
+            // sort the projects by date completed (newest first)
+            this.projects = this.projects.sort( (a,b) => { return a.date.localeCompare(b.date) })
+
             // count the projects where I have used each skill
-            this.all_skills 
+            for( const project of this.projects){
+                for( const skill of project.skills){
+                    if(!this.skills_map[skill]) {
+                        // init the count
+                        this.skills_map[skill] = 1
+                    }else{
+                        // increment the count
+                        this.skills_map[skill] += 1
+                    }
+                }
+            }
 
-            // // organize all skills into a list of lists, then flatten into a 1D array
-            // let all_skills = this.projects.map( project => project.skills ).flat()
-
-            // // remove duplicates with set conversion
-            // this.skills = [... new Set(all_skills)]
+            // organize all skills keys into an array, then sort them alphabetically
+            this.skills_list = Object.keys(this.skills).sort()
 
         }
 
