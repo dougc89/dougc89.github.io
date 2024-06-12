@@ -27,6 +27,7 @@
         v-for="project in projects" 
         :key="`project_${project._id}`"
         :project="project"
+        :selected_skills='selected_skills'
         class="mt-4"
         ></project-card>
     </div>
@@ -49,6 +50,7 @@
             v-for='(skill,index) in project.skills'
             :key='`${project._id}_skill_${index}`' 
             class='mx-1'
+            :color='selected_skills.includes(skill) ? "pink" : "green"'
             >{{skill}}</v-chip>
         </v-card-text>
     </v-card>
@@ -56,7 +58,7 @@
 
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
-<v-navigation-drawer width='200' :color='color'>
+<v-navigation-drawer :width='width' :color='color'>
     <v-list-item
     v-for='(skill,index) in skills_list'
     :key='`skill_drawer_${index}`'

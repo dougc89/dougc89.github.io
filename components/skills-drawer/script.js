@@ -16,6 +16,7 @@ export const SkillsDrawer = {
     data(){
         return {
             color: 'teal',
+            width: '300',
         }
     },
     computed: {

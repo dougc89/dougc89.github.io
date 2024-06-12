@@ -4,7 +4,10 @@ export const ProjectCard = {
     props:{
         project: {
             default: null
-        }
+        },
+        selected_skills: {
+            default: ()=>[]
+        },
     },
     data(){
         return {
