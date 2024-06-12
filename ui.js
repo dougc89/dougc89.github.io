@@ -19,6 +19,7 @@ const app = createApp({
         return {
             message: "Hello to the World",
             nav_icon: "mdi-format-list-checkbox",
+            show_drawer: true,
             projects: null,
             skills_map: {},
             skills_list: [],
