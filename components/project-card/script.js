@@ -1,5 +1,6 @@
 export const ProjectCard = {
     template: '#project-card-template',
+    name: 'ProjectCard',
     props:{
         project: {
             default: null
