@@ -56,7 +56,7 @@
 
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
-<v-navigation-drawer width='200'>
+<v-navigation-drawer width='200' :color='color'>
     <v-list-item
     v-for='(skill,index) in skills_list'
     :key='`skill_drawer_${index}`'
