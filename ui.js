@@ -31,7 +31,7 @@ const app = createApp({
             this.projects= await res.json()
 
             // sort the projects by date completed (newest first)
-            this.projects = this.projects.sort( (a,b) => { return a.date.localeCompare(b.date) })
+            this.projects = this.projects.sort( (a,b) => { return b.date.localeCompare(a.date) })
 
             // count the projects where I have used each skill
             for( const project of this.projects){
