@@ -11,66 +11,66 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.css" type="text/css">
 </head>
 <body>
-    <div id="app" dark>
-        <skills-drawer
-        :skills_list="skills_list"
-        :skills_map="skills_map"
-        :selected_skills="selected_skills"
-        ></skills-drawer>
-        <div v-if="projects" class="project-list">
-            <project-card 
-            v-for="project in projects" 
-            :key="`project_${project._id}`"
-            :project="project"
-            class="mt-4"
-            ></project-card>
-        </div>
+
+<div id="app" dark>
+    <v-app>
+    <skills-drawer
+    :skills_list="skills_list"
+    :skills_map="skills_map"
+    :selected_skills="selected_skills"
+    ></skills-drawer>
+    <div v-if="projects" class="project-list">
+        <project-card 
+        v-for="project in projects" 
+        :key="`project_${project._id}`"
+        :project="project"
+        class="mt-4"
+        ></project-card>
     </div>
+    </v-app>
+</div>
 
+<!-- vue templates built in here: -->
 
-
-
-    <!-- vue templates built in here: -->
-
-    <!-- project-card: -->
-     <script type="vue-template" id="project-card-template">
-        <v-card 
-        :title='title'
-        :subtitle='subtitle'
-        variant='tonal' color='teal'>
-            <v-card-text>
-                {{project.description}}
-            </v-card-text>
-            <v-card-text>
-                <v-chip 
-                v-for='(skill,index) in project.skills'
-                :key='`${project._id}_skill_${index}`' 
-                class='mx-1'
-                >{{skill}}</v-chip>
-            </v-card-text>
-        </v-card>
-     </script>
-
-    <!-- skills-drawer: -->
-    <script type="vue-template" id="skills-drawer-template">
-    <v-navigation-drawer width='200'>
-        <v-list-item
-        v-for='(skill,index) in skills_list'
-        :key='`skill_drawer_${index}`'
-        >
-        {{skill}} ({{skills_map[skill]}})
-        </v-list-item>
-
-    </v-navigation-drawer>
+<!-- project-card: -->
+    <script type="vue-template" id="project-card-template">
+    <v-card 
+    :title='title'
+    :subtitle='subtitle'
+    variant='tonal' color='teal'>
+        <v-card-text>
+            {{project.description}}
+        </v-card-text>
+        <v-card-text>
+            <v-chip 
+            v-for='(skill,index) in project.skills'
+            :key='`${project._id}_skill_${index}`' 
+            class='mx-1'
+            >{{skill}}</v-chip>
+        </v-card-text>
+    </v-card>
     </script>
 
+<!-- skills-drawer: -->
+<script type="vue-template" id="skills-drawer-template">
+<v-navigation-drawer width='200'>
+    <v-list-item
+    v-for='(skill,index) in skills_list'
+    :key='`skill_drawer_${index}`'
+    >
+    {{skill}} ({{skills_map[skill]}})
+    </v-list-item>
 
-    <!-- include Vue and Vuetify -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@3.4.27/dist/vue.global.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.js"></script>
-    
-    <!-- now my UI module -->
-    <script type="module" src="ui.js"></script>
+</v-navigation-drawer>
+</script>
+
+
+<!-- include Vue and Vuetify -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@3.4.27/dist/vue.global.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.js"></script>
+
+<!-- now my UI module -->
+<script type="module" src="ui.js"></script>
 
 </body>
 </html>
