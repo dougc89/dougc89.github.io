@@ -51,7 +51,7 @@
             <v-chip 
             v-for='(skill,index) in project.skills'
             :key='`${project._id}_skill_${index}`' 
-            :color='selected_skills.includes(skill) ? "pink" : null'
+            :color='selected_skills.includes(skill) ? "teal-accent-2" : "teal"'
             @click='toggle_skill(skill)'  
             class='mx-1'     
 
@@ -64,19 +64,20 @@
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
 <v-navigation-drawer :width='width' >
-    <v-list-item
-    v-for='(skill,index) in skills_list'
-    :key='`skill_drawer_${index}`'
-    >
-    <v-checkbox 
-    v-model='modelValue'
-    @update:model-value='input_handler'
-    :label='`${skill} (${skills_map[skill]})`'
-    :true-value='skill'
-    :color='color'
-    :value='skill'
-    multiple></v-checkbox>
-    </v-list-item>
+    <v-list>
+        <v-list-item
+        v-for='(skill,index) in skills_list' 
+        :key='`skill_drawer_${index}`'>
+            <v-checkbox 
+            v-model='modelValue'
+            @update:model-value='input_handler'
+            :label='`${skill} (${skills_map[skill]})`'
+            :true-value='skill'
+            :color='color'
+            :value='skill'
+            multiple></v-checkbox>
+        </v-list-item>
+    </v-list>
 
 </v-navigation-drawer>
 </script>
