@@ -16,7 +16,17 @@
 
 <div id="app" dark>
     <v-app>
+    <v-app-bar>
+        <v-app-bar-nav-icon
+        :icon="nav_icon" 
+        @click.stop="show_drawer = !show_drawer"
+        variant="text"
+        ></v-app-bar-nav-icon>
+        <v-toolbar-title>Doug's Skills</v-toolbar-title>
+        <v-spacer></v-spacer>
+    </v-app-bar>
     <skills-drawer
+    v-if="show_drawer"
     v-model="selected_skills"
     :skills_list="skills_list"
     :skills_map="skills_map"
@@ -59,7 +69,7 @@
             :key='`${project._id}_skill_${index}`' 
             :color='selected_skills.includes(skill) ? "teal-accent-2" : "teal"'
             @click='toggle_skill(skill)'  
-            class='mx-1'     
+            class='m-1'     
 
             >{{skill}}</v-chip>
 
