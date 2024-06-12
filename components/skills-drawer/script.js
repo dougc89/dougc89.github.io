@@ -7,7 +7,8 @@ export const SkillsDrawer = {
         skills_map: {
             default: () => {return {}}
         },
-        selected_skills: {
+        value: {
+            // models selected_skills
             default: () => []        
         }
     },

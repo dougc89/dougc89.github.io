@@ -15,6 +15,7 @@
 <div id="app" dark>
     <v-app>
     <skills-drawer
+    v-model="selected_skills"
     :skills_list="skills_list"
     :skills_map="skills_map"
     :selected_skills="selected_skills"
@@ -58,7 +59,9 @@
     v-for='(skill,index) in skills_list'
     :key='`skill_drawer_${index}`'
     >
-    {{skill}} ({{skills_map[skill]}})
+    <v-checkbox 
+    v-model='value'
+    :label='`${skill} (skills_map[skill])`'></v-checkbox>
     </v-list-item>
 
 </v-navigation-drawer>
