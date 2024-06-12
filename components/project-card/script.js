@@ -41,7 +41,7 @@ export const ProjectCard = {
                 this.$emit('update:skills', new_skills)
             }else{
                 let new_skills = [...this.selected_skills]
-                new_skills.append(skill)
+                new_skills.push(skill)
                 console.log('new skills', new_skills)
                 console.log("toggle on, because it is off", skill)
                 this.$emit('update:skills', new_skills)
