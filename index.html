@@ -8,6 +8,7 @@
 
     <title>Doug Clelland - Portfolio</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="https://cdn.jsdeliver.net/npm/@mdi/font@7.4.47/scripts/verify.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialsdesignicons.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@3.6.8/dist/vuetify.min.css" type="text/css">
 </head>
@@ -63,7 +64,10 @@
     <v-checkbox 
     v-model='modelValue'
     @update:model-value='input_handler'
-    :label='`${skill} (${skills_map[skill]})`'></v-checkbox>
+    :label='`${skill} (${skills_map[skill]})`'
+    :true-value='skill'
+    :value='skill'
+    multiple></v-checkbox>
     </v-list-item>
 
 </v-navigation-drawer>

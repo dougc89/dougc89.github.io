@@ -1,5 +1,6 @@
 export const SkillsDrawer = {
     template: '#skills-drawer-template',
+    name:'SkillsDrawer',
     props:{
         skills_list: {
             default: () => []
@@ -7,7 +8,7 @@ export const SkillsDrawer = {
         skills_map: {
             default: () => {return {}}
         },
-        value: {
+        modelValue: {
             // models selected_skills
             default: () => []        
         }
