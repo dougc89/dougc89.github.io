@@ -47,7 +47,10 @@ const app = createApp({
             }
 
             // organize all skills keys into an array, then sort them alphabetically
-            this.skills_list = Object.keys(this.skills).sort()
+            this.skills_list = Object.keys(this.skills)
+            
+            // sort them 
+            this.skills_list = this.skills_list.sort()
 
         }
 
