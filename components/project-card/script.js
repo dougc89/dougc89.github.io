@@ -29,4 +29,3 @@ export const ProjectCard = {
         }
     }
 }
-// export default project_card

@@ -2,6 +2,7 @@ const { createApp } = Vue
 const { createVuetify } = Vuetify
 
 import {ProjectCard} from '../components/project-card/script.js'
+import SkillsDrawer from '../components/skills-drawer/script.js'
 
 const vuetify3 = createVuetify({
     theme: {
@@ -19,6 +20,7 @@ const app = createApp({
             projects: null,
             skills_map: {},
             skills_list: [],
+            selected_skills: [],
         }
     },
     mounted(){
@@ -49,6 +51,9 @@ const app = createApp({
             // organize all skills keys into an array, then sort them alphabetically
             this.skills_list = Object.keys(this.skills_map).sort()
 
+        },
+        select_skill(skill){
+            this.selected_skills.append(skill)
         }
 
     }

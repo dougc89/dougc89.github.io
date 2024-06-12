@@ -12,6 +12,12 @@
 </head>
 <body>
     <div id="app" dark>
+        <skills-drawer
+        :skills_list="skills_list"
+        :skills_map="skills_map"
+        :selected_skills="selected_skills"
+        @select_skill="select_skill"
+        ></skills-drawer>
         <div v-if="projects" class="project-list">
             <project-card 
             v-for="project in projects" 
@@ -45,6 +51,19 @@
             </v-card-text>
         </v-card>
      </script>
+
+    <!-- skills-drawer: -->
+    <script type="vue-template" id="skills-drawer-template">
+    <v-navigation-drawer width='200'>
+        <v-list-item
+        v-for='(skill,index) in skills_list'
+        :key='`skill_drawer_${index}`'
+        >
+        {{skill}} ({{skills_map[skill]}})
+        </v-list-item>
+
+    </v-navigation-drawer>
+    </script>
 
 
     <!-- include Vue and Vuetify -->
