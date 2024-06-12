@@ -38,13 +38,13 @@ export const ProjectCard = {
                 let new_skills = [...this.selected_skills]
                 new_skills.splice(new_skills.indexOf(skill), 1)
                 console.log('new skills', new_skills)
-                this.$emit('update:skills', this.selected_skills)
+                this.$emit('update:skills', new_skills)
             }else{
                 let new_skills = [...this.selected_skills]
                 new_skills.append(skill)
                 console.log('new skills', new_skills)
                 console.log("toggle on, because it is off", skill)
-                this.$emit('update:skills', this.selected_skills)
+                this.$emit('update:skills', new_skills)
             }
 
         }

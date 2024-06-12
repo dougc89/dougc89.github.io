@@ -47,13 +47,16 @@
             {{project.description}}
         </v-card-text>
         <v-card-text>
-            <v-chip 
+            <v-btn
             v-for='(skill,index) in project.skills'
             :key='`${project._id}_skill_${index}`' 
             class='mx-1'
-            :color='selected_skills.includes(skill) ? "pink" : "green"'
             @click='toggle_skill(skill)'
-            >{{skill}}</v-chip>
+            >
+                <v-chip             
+                :color='selected_skills.includes(skill) ? "pink" : "green"'
+                >{{skill}}</v-chip>
+            </v-btn>
         </v-card-text>
     </v-card>
     </script>
