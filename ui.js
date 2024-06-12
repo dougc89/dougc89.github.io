@@ -2,7 +2,7 @@ const { createApp } = Vue
 const { createVuetify } = Vuetify
 
 import {ProjectCard} from '../components/project-card/script.js'
-import SkillsDrawer from '../components/skills-drawer/script.js'
+import {SkillsDrawer} from '../components/skills-drawer/script.js'
 
 const vuetify3 = createVuetify({
     theme: {
