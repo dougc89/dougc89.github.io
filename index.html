@@ -64,11 +64,11 @@
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
 <v-navigation-drawer :width='width' >
-    <v-list>
+    <v-list density='compact'>
+        <v-list-item title='Skills' subtitle='Used in Projects'></v-list-item>
         <v-list-item
         v-for='(skill,index) in skills_list' 
-        :key='`skill_drawer_${index}`'
-        density='compact'>
+        :key='`skill_drawer_${index}`'>
             <v-checkbox 
             v-model='modelValue'
             @update:model-value='input_handler'
