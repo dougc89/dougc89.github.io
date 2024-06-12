@@ -32,7 +32,7 @@
     :skills_map="skills_map"
     :selected_skills="selected_skills"
     ></skills-drawer>
-    <div v-if="filtered_projects.length" class="project-list">
+    <div v-if="filtered_projects && filtered_projects.length" class="project-list">
         <project-card 
         v-for="project in filtered_projects" 
         :key="`project_${project._id}`"
@@ -42,7 +42,7 @@
         @update:skills="update_skills"
         ></project-card>
     </div>
-    <div v-else class="project-list">
+    <div v-else-if="projects" class="project-list">
         There are no projects matching that exact combination of skills. 
         <v-btn
         @click="reset_skills"
