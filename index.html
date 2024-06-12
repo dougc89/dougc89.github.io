@@ -69,7 +69,7 @@
             :key='`${project._id}_skill_${index}`' 
             :color='selected_skills.includes(skill) ? "teal-accent-2" : "teal"'
             @click='toggle_skill(skill)'  
-            class='m-1'     
+            class='mx-1 my-1'     
 
             >{{skill}}</v-chip>
 
@@ -79,7 +79,7 @@
 
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
-<v-navigation-drawer :width='width' >
+<v-navigation-drawer :width='width' v-model='show_drawer'>
     <v-list density='compact'>
         <v-list-item title="Doug's Skills" subtitle='Used in Projects'></v-list-item>
         <v-list-item

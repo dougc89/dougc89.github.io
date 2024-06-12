@@ -11,7 +11,11 @@ export const SkillsDrawer = {
         modelValue: {
             // models selected_skills
             default: () => []        
-        }
+        },
+        show_drawer: {
+            type: Boolean,
+            default: true
+        },
     },
     data(){
         return {
