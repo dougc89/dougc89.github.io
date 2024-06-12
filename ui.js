@@ -53,8 +53,9 @@ const app = createApp({
             this.skills_list = Object.keys(this.skills_map).sort()
 
         },
-        select_skill(skill){
-            this.selected_skills.append(skill)
+        update_skills(skills){
+            console.log('gotcha bro', skills)
+            this.selected_skills = skills
         }
 
     }

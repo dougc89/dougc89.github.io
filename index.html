@@ -29,6 +29,7 @@
         :project="project"
         :selected_skills='selected_skills'
         class="mt-4"
+        @update:skills="update_skills"
         ></project-card>
     </div>
     </v-app>
@@ -51,6 +52,7 @@
             :key='`${project._id}_skill_${index}`' 
             class='mx-1'
             :color='selected_skills.includes(skill) ? "pink" : "green"'
+            @click='toggle_skill(skill)'
             >{{skill}}</v-chip>
         </v-card-text>
     </v-card>
