@@ -12,7 +12,8 @@ const vuetify3 = createVuetify({
 
 const app = createApp({
     components: {
-        ProjectCard
+        ProjectCard,
+        SkillsDrawer,
     },
     data: function(){
         return {
