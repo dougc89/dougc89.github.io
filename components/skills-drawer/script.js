@@ -1,4 +1,4 @@
-export default {
+export const SkillsDrawer = {
     template: '#skills-drawer-template',
     props:{
         skills_list: {
