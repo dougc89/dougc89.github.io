@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 0,
+        "title": "MoHawk Time",
+        "date": "2017-12",
+        "job_title": "Calculus & Computer Science Teacher",
+        "employer": "Lake County Schools",
+        "description": "Track student rosters & attendance in a flexible study hall period.",
+        "skills": [
+            "JS",
+            "Google Apps Script"
+        ]
+    },
+    {
+        "_id": 1,
+        "title": "Timesheets",
+        "date": "2020-01",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Employee time & attendance for payroll management.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server",
+            "Python"
+        ]
+    },
+    {
+        "_id": 2,
+        "title": "Civil Process",
+        "date": "2020-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Tracking high volume civil document service",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    }
+
+]

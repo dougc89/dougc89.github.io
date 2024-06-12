@@ -15,7 +15,7 @@ export const ProjectCard = {
             return this.project ? `${this.project.title}` :  'Title goes here...'
         },
         subtitle(){
-            return this.project ? `${this.project.date}` :  'Month of completion goes here...'    
+            return this.project ? `${this.project.date}: ${this.project.job_title} @ ${this.project.employer}` :  'Month of completion goes here...'    
         }
     }
 }

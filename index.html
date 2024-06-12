@@ -12,9 +12,9 @@
 </head>
 <body>
     <div id="app" dark>
-        <div v-if="config && config.projects" class="project-list">
+        <div v-if="projects" class="project-list">
             <project-card 
-            v-for="project in config.projects" 
+            v-for="project in projects" 
             :key="`project_${project._id}`"
             :project="project"
             class="mt-4"
