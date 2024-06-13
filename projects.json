@@ -398,7 +398,7 @@
         "_id": 25,
         "title": "Statelink Mnemonic Mgmt",
         "date": "2021-10",
-        "job_title": "",
+        "job_title": "Programmer",
         "employer": "Lake County Sheriff's Office",
         "description": "Manage linking of computers that handle Criminal Justice info to FL Dept of Law Enforcement device identifiers.",
         "skills": [
@@ -408,6 +408,19 @@
             "Vuetify",
             "RESTful API",
             "SQL Server"
+        ]
+    },
+    {
+        "_id": 26,
+        "title": "Network Status Monitor Site",
+        "date": "2021-10",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Diagram the active VPN connections and network tunnels.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap"
         ]
     }
 
