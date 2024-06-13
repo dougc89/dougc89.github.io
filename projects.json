@@ -29,7 +29,7 @@
     {
         "_id": 2,
         "title": "Civil Process",
-        "date": "2020-08",
+        "date": "2020-09",
         "job_title": "Programmer",
         "employer": "Lake County Sheriff's Office",
         "description": "Tracking high volume civil document service",
@@ -192,6 +192,145 @@
             "JS",
             "Bootstrap",
             "MySQL"
+        ]
+    },
+    {
+        "_id": 13,
+        "title": "Inmate Disciplinary Process",
+        "date": "2023-05",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "When an inmate has done a bad thing while in jail and needs some more jail... (solitary confinement) this needs a management process and I built it.",
+        "skills": [
+            "PHP",
+            "Python",
+            "Pyppeteer",
+
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 14,
+        "title": "Crownepointe Archive",
+        "date": "2021-06",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Archival view of a legacy training application.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 15,
+        "title": "Employee Document Repository",
+        "date": "2023-08",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Digitize filing of employement documentation for the agency, importing and classifying existing paper documents.",
+        "skills": [
+            "PHP",
+            "Python",
+
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "NoSQL",
+            "MongoDB"    
+        ]
+    },
+    {
+        "_id": 16,
+        "title": "Performance Evaluations",
+        "date": "2021-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Process annual performance reviews for employees, with reminders to supervisors & HR to complete these in a timely manner.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 17,
+        "title": "Emergency Management Reimbursements",
+        "date": "2024-04",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "After a hurricane or other weather based state-of-emergency, process documentation for filing for reimbursement from state/federal funds.",
+        "skills": [
+            "PHP",
+            "Python",
+            "Pyppeteer",
+
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "NoSQL",
+            "MongoDB"    
+        ]
+    },
+    {
+        "_id": 18,
+        "title": "Form Repository",
+        "date": "2019-10",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Digital repository for agency forms, with version control and usage statistics.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 19,
+        "title": "Event Registrations",
+        "date": "2020-06",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Registrations for the community to participate in free programs offered by the agency, or charity fundraising events.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "MySQL",
+            "Paypal IPN"
+        ]
+    },
+    {
+        "_id": 20,
+        "title": "Shift Rosters",
+        "date": "2022-02",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Flexible shift rosters, for 24-hr staffing, allowing shift trading and a text-to-register integration.",
+        "skills": [
+            "PHP",
+            "Python",
+            "Pyppeteer",
+
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "MySQL",
+            "Twilio"
         ]
     }
 ]
