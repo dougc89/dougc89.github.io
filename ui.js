@@ -64,7 +64,7 @@ const app = createApp({
             }
 
             // organize all skills keys into an array, then sort them by the most commonly used in my projects
-            this.skills_list = Object.keys(this.skills_map).sort((a,b) => this.skills_map[a] > this.skills_map[b])
+            this.skills_list = Object.keys(this.skills_map).sort((a,b) => this.skills_map[b] - this.skills_map[a])
 
         },
         update_skills(skills){
