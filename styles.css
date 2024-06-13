@@ -8,9 +8,10 @@
     margin-right: auto;
     margin-top: 72px;
 }  
-@media (min-width: 1200px){
+@media (min-width: 1280px){
     .project-list{
         max-width: 1200px;
+        min-width:480px;
         margin-right: calc(50% - 360px);
     }
 }
