@@ -17,7 +17,6 @@ const app = createApp({
     },
     data: function(){
         return {
-            message: "Hello to the World",
             nav_icon: "mdi-format-list-checkbox",
             show_drawer: true,
             projects: null,
@@ -64,8 +63,8 @@ const app = createApp({
                 }
             }
 
-            // organize all skills keys into an array, then sort them alphabetically
-            this.skills_list = Object.keys(this.skills_map).sort()
+            // organize all skills keys into an array, then sort them by the most commonly used in my projects
+            this.skills_list = Object.keys(this.skills_map).sort((a,b) => this.skills_map[a] > this.skills_map[b])
 
         },
         update_skills(skills){
