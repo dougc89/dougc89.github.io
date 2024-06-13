@@ -13,7 +13,7 @@
     },
     {
         "_id": 1,
-        "title": "Timesheets",
+        "title": "eTimesheets",
         "date": "2020-01",
         "job_title": "Programmer",
         "employer": "Lake County Sheriff's Office",
@@ -39,6 +39,159 @@
             "Bootstrap",
             "SQL Server"
         ]
-    }
+    },
+    {
+        "_id": 4,
+        "title": "Agency RBAC Reorganization",
+        "date": "2022-12",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Define all agency roles and dynamically reorganize security groups/permissions accordingly.",
+        "skills": [
+            "PHP",
+            "JS",
 
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "Python",
+            "Powershell"
+
+        ]
+    },
+    {
+        "_id": 5,
+        "title": "Azure AD Sync",
+        "date": "2024-04",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Ongoing sync between local applications and our Active Directory / Azure Entra.",
+        "skills": [
+            "PHP",
+            "RESTful API",
+            "MongoDB",
+            "NoSQL",
+
+            "Python",
+            "Powershell",
+            "Azure",
+            "Microsoft Graph"
+
+        ]
+    },
+    {
+        "_id": 6,
+        "title": "Approvals Process",
+        "date": "2023-12",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Developed reusable approvals microservice for internal web apps.",
+        "skills": [
+            "PHP",
+            "Python",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "MongoDB",
+            "NoSQL"
+        ]
+    },
+    {
+        "_id": 7,
+        "title": "Benefits webpage",
+        "date": "2021-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Internally advertise employee benefits, such as insurance enrollment, investment options, and wellness benefits.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap"
+        ]
+    },
+    {
+        "_id": 8,
+        "title": "LCSO Branding guide",
+        "date": "2023-07",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Source templated files for logos, embroidery, and email signatures to standardize our branding.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "SQL Server"    
+        ]
+    },
+    {
+        "_id": 9,
+        "title": "Funding Requests and Budget",
+        "date": "2024-02",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Manage annual funding requests and approvals for a multi-million dollar budget.",
+        "skills": [
+            "PHP",
+            "Python",
+
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "NoSQL",
+            "MongoDB"    
+        ]
+    },
+    {
+        "_id": 10,
+        "title": "Building Maintenance work orders",
+        "date": "2021-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Work order management for internal building maintenance, such as a leaky faucet or broken AC.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 11,
+        "title": "Employee Bulletin Board",
+        "date": "2023-07",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Employees posting community announcements, items/services for sale, etc",
+        "skills": [
+            "PHP",
+            "Python",
+
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 12,
+        "title": "Chaplain's Corner",
+        "date": "2021-06",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Resources to support physical, mental, and spiritual well-being of those in crisis.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "MySQL"
+        ]
+    }
 ]
