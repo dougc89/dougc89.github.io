@@ -25,6 +25,7 @@
         <v-toolbar-title>Doug's Skills</v-toolbar-title>
         <v-spacer></v-spacer>
     </v-app-bar>
+
     <skills-drawer
     v-if="show_drawer"
     v-model="selected_skills"
@@ -32,6 +33,7 @@
     :skills_map="skills_map"
     :selected_skills="selected_skills"
     ></skills-drawer>
+
     <div v-if="filtered_projects && filtered_projects.length" class="project-list">
         <project-card 
         v-for="project in filtered_projects" 
@@ -48,6 +50,7 @@
         @click="reset_skills"
         text>Reset Skill Filter</v-btn>
     </div>
+    
     </v-app>
 </div>
 
