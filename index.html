@@ -27,7 +27,7 @@
     </v-app-bar>
 
     <skills-drawer
-    v-if="show_drawer"
+    :show_drawer="show_drawer"
     v-model="selected_skills"
     :skills_list="skills_list"
     :skills_map="skills_map"
