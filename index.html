@@ -33,6 +33,7 @@
     :skills_list="skills_list"
     :skills_map="skills_map"
     :selected_skills="selected_skills"
+    @toggle_drawer="toggle_drawer"
     ></skills-drawer>
 
     <div v-if="filtered_projects && filtered_projects.length" class="project-list">
@@ -86,7 +87,11 @@
 
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
-<v-navigation-drawer :width='width' :modelValue='show_drawer'>
+<v-navigation-drawer 
+:width='width' 
+:modelValue='show_drawer'
+@update:modelValue='toggle_drawer'
+>
    <!-- <v-list-item title="Skills List" subtitle='Used in Projects'></v-list-item> -->
     <v-list density='compact'>
         <v-list-item

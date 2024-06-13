@@ -75,6 +75,9 @@ const app = createApp({
         reset_skills(){
             this.selected_skills = []
         },
+        toggle_drawer(state){
+            this.show_drawer = state
+        }
 
     }
 })
