@@ -7,13 +7,17 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 72px;
- }  
+}  
 @media (min-width: 1200px){
     .project-list{
         max-width: 1200px;
+    }
+    .v-toolbar{
+        display:none;
     }
 }
 
 .v-card-title{
     color: #EEEEEE;
 }
+

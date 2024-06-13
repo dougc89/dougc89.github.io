@@ -22,7 +22,7 @@
         @click.stop="show_drawer = !show_drawer"
         variant="text"
         ></v-app-bar-nav-icon>
-        <v-toolbar-title>Doug's Skills</v-toolbar-title>
+        <v-toolbar-title>Skills List</v-toolbar-title>
         <v-spacer></v-spacer>
     </v-app-bar>
 
@@ -84,7 +84,6 @@
 <script type="vue-template" id="skills-drawer-template">
 <v-navigation-drawer :width='width' v-model='show_drawer'>
     <v-list density='compact'>
-        <v-list-item title="Doug's Skills" subtitle='Used in Projects'></v-list-item>
         <v-list-item
         v-for='(skill,index) in skills_list' 
         :key='`skill_drawer_${index}`'
