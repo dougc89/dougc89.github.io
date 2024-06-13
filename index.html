@@ -16,11 +16,12 @@
 
 <div id="app" dark>
     <v-app v-cloak>
-    <v-app-bar class="d-lg-none">
+    <v-app-bar >
         <v-app-bar-nav-icon
         :icon="nav_icon" 
         @click.stop="show_drawer = !show_drawer"
         variant="text"
+        class="d-lg-none"
         ></v-app-bar-nav-icon>
         <v-toolbar-title>Skills List</v-toolbar-title>
         <v-spacer></v-spacer>
@@ -87,6 +88,7 @@
 <!-- skills-drawer: -->
 <script type="vue-template" id="skills-drawer-template">
 <v-navigation-drawer :width='width' v-model='show_drawer'>
+   <!-- <v-list-item title="Skills List" subtitle='Used in Projects'></v-list-item> -->
     <v-list density='compact'>
         <v-list-item
         v-for='(skill,index) in skills_list' 
