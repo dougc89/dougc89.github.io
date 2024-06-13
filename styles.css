@@ -10,9 +10,16 @@
 }  
 @media (min-width: 1280px){
     .project-list{
+        max-width: 600px;
+        min-width:480px;
+        margin-right: calc(50% - 460px);
+    }
+}
+@media (min-width: 2000px){
+    .project-list{
         max-width: 1200px;
         min-width:480px;
-        margin-right: calc(50% - 420px);
+        margin-right: calc(50% - 660px);
     }
 }
 

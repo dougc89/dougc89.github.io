@@ -332,5 +332,83 @@
             "MySQL",
             "Twilio"
         ]
+    },
+    {
+        "_id": 21,
+        "title": "Freshservice Integrations",
+        "date": "2022-04",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Integrate some internal application data with our work order software.",
+        "skills": [
+            "PHP",
+            "JS",
+
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+
+            "Python"
+        ]
+    },
+    {
+        "_id": 22,
+        "title": "Agriculture Watch",
+        "date": "2022-05",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Manage law-enforcement monitoring of unattended agriculture land (such as cow fields).",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 23,
+        "title": "Media Releases",
+        "date": "2023-03",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Publish media releases to agency's public website, and notify registered media agents (local newspapers).",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "MySQL"
+        ]
+    },
+    {
+        "_id": 24,
+        "title": "Azure SSO",
+        "date": "2021-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Integrate single sign-on with Azure AD.",
+        "skills": [
+            "PHP",
+            "Azure",
+            "MySQL"
+        ]
+    },
+    {
+        "_id": 25,
+        "title": "Statelink Mnemonic Mgmt",
+        "date": "2021-10",
+        "job_title": "",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Manage linking of computers that handle Criminal Justice info to FL Dept of Law Enforcement device identifiers.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "SQL Server"
+        ]
     }
+
 ]
