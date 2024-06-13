@@ -12,9 +12,6 @@
     .project-list{
         max-width: 1200px;
     }
-    .v-toolbar{
-        display:none;
-    }
 }
 
 .v-card-title{
