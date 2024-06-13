@@ -44,9 +44,10 @@
         @update:skills="update_skills"
         ></project-card>
     </div>
-    <div v-else-if="projects" class="project-list">
+    <div v-else-if="projects" class="project-list text-center">
         There are no projects matching that exact combination of skills. 
-        <v-btn
+        <br>
+        <v-btn variant="text"
         @click="reset_skills"
         text>Reset Skill Filter</v-btn>
     </div>
