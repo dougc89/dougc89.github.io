@@ -30,7 +30,7 @@
 
                 <v-avatar v-bind="activatorProps" class="mr-4">
                     <v-img
-                    src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/LinkedIn.jpg"
+                    src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/LinkedIn.jpg"
                     ></v-img>
                 </v-avatar>
 
@@ -103,6 +103,7 @@
         <v-card-subtitle>
             {{subtitle}}
         </v-card-subtitle>
+        <v-img v-if='project.images' src='project.images'></v-img>
         <v-card-text>
             {{project.description}}
         </v-card-text>
