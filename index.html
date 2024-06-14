@@ -64,12 +64,16 @@
 <!-- project-card: -->
     <script type="vue-template" id="project-card-template">
     <v-card 
-    :subtitle='subtitle'
     variant='tonal' color='teal'>
         <v-card-title>
-            <v-icon v-if='project.favorite'>mdi-star</v-icon>
+            <v-icon v-if='project.favorite'
+            color='teal-accent-2'
+            class='mb-1' >mdi-star</v-icon>
             {{title}}
         </v-card-title>
+        <v-card-subtitle>
+            {{subtitle}}
+        </v-card-subtitle>
         <v-card-text>
             {{project.description}}
         </v-card-text>
