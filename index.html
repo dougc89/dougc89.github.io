@@ -27,22 +27,19 @@
         <v-spacer></v-spacer>
         <v-dialog max-width="500">
             <template v-slot:activator="{ props: activatorProps }">
-              <v-fab
-                v-bind="activatorProps"
-                variant="flat"
-              >
-                <v-avatar>
+
+                <v-avatar v-bind="activatorProps">
                     <v-img
                     src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/LinkedIn.jpg"
                     ></v-img>
                 </v-avatar>
-            </v-fab>
+
             </template>
           
             <template v-slot:default="{ isActive }">
               <v-card title="Dialog">
                 <v-card-text>
-                  Lorem ipsum dolor sit amet....
+                  Lorem ipsum dolor sit amet.....
                 </v-card-text>
           
                 <v-card-actions>
