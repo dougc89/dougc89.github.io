@@ -37,19 +37,18 @@
             </template>
           
             <template v-slot:default="{ isActive }">
-              <v-card title="Bio & Education">
+              <v-card >
+                <v-card-title>
+                    Bio & Education 
+                    <v-spacer></v-spacer>
+                    <v-btn 
+                    icon="mdi-close"
+                    @click="isActive.value = false"></v-btn>
+                </v-card-title>
                 <v-card-text>
                   Lorem ipsum dolor sit amet.....
                 </v-card-text>
           
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-          
-                  <v-btn
-                    text="Close Dialog"
-                    @click="isActive.value = false"
-                  ></v-btn>
-                </v-card-actions>
               </v-card>
             </template>
           </v-dialog>
