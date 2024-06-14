@@ -34,16 +34,12 @@ export const ProjectCard = {
         toggle_skill(skill){
 
             if(this.selected_skills.includes(skill)){
-                console.log("toggle off, because it is on", skill)
                 let new_skills = [...this.selected_skills]
                 new_skills.splice(new_skills.indexOf(skill), 1)
-                console.log('new skills', new_skills)
                 this.$emit('update:skills', new_skills)
             }else{
                 let new_skills = [...this.selected_skills]
                 new_skills.push(skill)
-                console.log('new skills', new_skills)
-                console.log("toggle on, because it is off", skill)
                 this.$emit('update:skills', new_skills)
             }
 

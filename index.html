@@ -64,9 +64,12 @@
 <!-- project-card: -->
     <script type="vue-template" id="project-card-template">
     <v-card 
-    :title='title'
     :subtitle='subtitle'
     variant='tonal' color='teal'>
+        <v-card-title>
+            <v-icon v-if='project.favorite'>mdi-star</v-icon>
+            {{title}}
+        </v-card-title>
         <v-card-text>
             {{project.description}}
         </v-card-text>

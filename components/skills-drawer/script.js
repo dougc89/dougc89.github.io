@@ -27,7 +27,6 @@ export const SkillsDrawer = {
     },
     methods: {
         input_handler(val){
-            console.log('modelling', val)
             this.$emit('update:model-value', val)
         },
         toggle_drawer(state){

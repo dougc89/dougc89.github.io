@@ -47,8 +47,11 @@ const app = createApp({
             let res = await fetch('projects.json')
             this.projects= await res.json()
 
-            // sort the projects by date completed (newest first)
-            this.projects = this.projects.sort( (a,b) => { return b.date.localeCompare(a.date) })
+            // sort the projects by date completed (newest first, with favorites at the top)
+            this.projects = this.projects.sort( (a,b) => { 
+                if(a.favorite || b.favorite) return a.favorite ? -1 : 1
+                return b.date.localeCompare(a.date) 
+            })
 
             // count the projects where I have used each skill
             for( const project of this.projects){
@@ -68,7 +71,6 @@ const app = createApp({
 
         },
         update_skills(skills){
-            console.log('gotcha bro', skills)
             this.selected_skills = skills
         },
         reset_skills(){

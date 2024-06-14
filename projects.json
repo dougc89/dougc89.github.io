@@ -1,5 +1,24 @@
 [
     {
+        "_id": 36,
+        "title": "LCSO Org Chart",
+        "date": "2023-11",
+        "favorite": true, 
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "A dynamic employee org chart synced to our Azure Active Directory. Installable on iOS or Android as a PWA.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure"
+        ]
+    },
+    {
         "_id": 35,
         "title": "Staff Dining",
         "date": "2024-04",
