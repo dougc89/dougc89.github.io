@@ -1,5 +1,40 @@
 [
     {
+        "_id": 35,
+        "title": "Staff Dining",
+        "date": "2024-04",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "What's for lunch at the staff cafeteria? A digital menu cuts down on the deluge of phone calls that our cafeteria staff would field everyday asking that exact question.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure"
+        ]
+    },
+    {
+        "_id": 34,
+        "title": "Travel Reimbursements",
+        "date": "2024-04",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Internal approval process for reimbursement of travel expenses for trainings, conferences, etc.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB"
+        ]
+    },
+    {
         "_id": 0,
         "title": "MoHawk Time",
         "date": "2017-12",
@@ -95,7 +130,8 @@
             "Vuetify",
             "RESTful API",
             "MongoDB",
-            "NoSQL"
+            "NoSQL",
+            "Azure"
         ]
     },
     {
@@ -280,7 +316,8 @@
             "RESTful API",
 
             "NoSQL",
-            "MongoDB"    
+            "MongoDB",
+            "Azure"
         ]
     },
     {
@@ -412,16 +449,125 @@
     },
     {
         "_id": 26,
-        "title": "Network Status Monitor Site",
+        "title": "Network Status Monitore",
         "date": "2021-10",
         "job_title": "Programmer",
         "employer": "Lake County Sheriff's Office",
-        "description": "Diagram the active VPN connections and network tunnels.",
+        "description": "Chart the active VPN connections and network tunnels.",
         "skills": [
             "PHP",
             "JS",
             "Bootstrap"
         ]
+    },
+    {
+        "_id": 27,
+        "title": "On-call Schedule",
+        "date": "2022-05",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Who is on-call for different departments at the agency, for 24-hrs support?",
+        "skills": [
+            "PHP",
+            "Python",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "MySQL"
+        ]
+    },
+    {
+        "_id": 28,
+        "title": "Perimeter Checks",
+        "date": "2023-01",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Logging of security checks on the county jail perimeter.",
+        "skills": [
+            "PHP",
+            "Python",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 29,
+        "title": "Employee ID Photo management",
+        "date": "2021-07",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Sync ID photos for new hires into our directory.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "Powershell"
+        ]
+    },
+    {
+        "_id": 30,
+        "title": "PoliceTrak",
+        "date": "2019-10",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Archival view of a legacy law enforcement records, such as arrest data.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 31,
+        "title": "Public Notices",
+        "date": "2023-02",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Management of public notice for foreclosure sales, civil lawsuit settlement sales, and found property.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure"
+        ]
+    },
+    {
+        "_id": 32,
+        "title": "Secondary Dissemination Log",
+        "date": "2022-02",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "In order to maintain compliance with logging of the dissemination of criminal history records, used for the purpose of prosecution, background checks, etc.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "SQL Server"
+        ]
+    },
+    {
+        "_id": 33,
+        "title": "Senior Watch",
+        "date": "2019-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Community safety service provided to check in daily on seniors who live alone.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Bootstrap",
+            "SQL Server"
+        ]
     }
-
 ]
