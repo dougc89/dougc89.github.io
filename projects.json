@@ -7,8 +7,8 @@
         "job_title": "Senior Web Developer",
         "employer": "Lake County Sheriff's Office",
         "images":[
-            "https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/org_chart.jpg",
-            "https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/org_chart_2.gif"
+            "https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/org_chart_2.gif",
+            "https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/org_chart.jpg"
         ],
         "description": "A dynamic employee org chart synced to our Azure Active Directory. Installable on iOS or Android as a PWA.",
         "skills": [
