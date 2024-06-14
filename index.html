@@ -117,7 +117,7 @@
         v-for='(image, img_idx) in project.images'
         :key='`project_${project._id}_img_${img_idx}`'
         >
-            <v-img :src='project.images[img_idx-1]'></v-img>
+            <v-img :src='project.images[img_idx]'></v-img>
         </v-carousel-item>
 
         </v-carousel>
