@@ -40,7 +40,7 @@ const app = createApp({
         this.get_projects()
 
         // set the default show draw to false on a smaller screen
-        if(window.innerWidth < 1200) this.show_drawer = false
+        if(window.innerWidth < 1280) this.show_drawer = false
     },
     methods:{
         async get_projects(){
