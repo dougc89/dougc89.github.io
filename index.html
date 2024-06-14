@@ -25,11 +25,40 @@
         ></v-app-bar-nav-icon>
         <v-toolbar-title>Skills</v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-avatar>
-            <v-img
-            src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/LinkedIn.jpg"
-            ></v-img>
-        </v-avatar>
+        <v-dialog max-width="500">
+            <template v-slot:activator="{ props: activatorProps }">
+              <v-btn
+                v-bind="activatorProps"
+                color="surface-variant"
+                text="Open Dialog"
+                variant="flat"
+              >
+                <v-avatar>
+                    <v-img
+                    src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/LinkedIn.jpg"
+                    ></v-img>
+                </v-avatar>
+            </v-btn>
+            </template>
+          
+            <template v-slot:default="{ isActive }">
+              <v-card title="Dialog">
+                <v-card-text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </v-card-text>
+          
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+          
+                  <v-btn
+                    text="Close Dialog"
+                    @click="isActive.value = false"
+                  ></v-btn>
+                </v-card-actions>
+              </v-card>
+            </template>
+          </v-dialog>
+
     </v-app-bar>
 
     <skills-drawer

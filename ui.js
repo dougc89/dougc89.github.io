@@ -23,6 +23,7 @@ const app = createApp({
             skills_map: {},
             skills_list: [],
             selected_skills: [],
+            isActive: false,
         }
     },
     computed: {
