@@ -103,10 +103,25 @@
         <v-card-subtitle>
             {{subtitle}}
         </v-card-subtitle>
-        <v-img v-if='project.images' :src='project.images'></v-img>
+        
         <v-card-text>
             {{project.description}}
         </v-card-text>
+        <v-carousel v-if='project.images' 
+        height='400'
+        show-arrows='hover'
+        interval='4500'
+        cycle hide-delimiter-background
+        >
+        <v-carousel-item
+        v-for='(image, img_idx) in project.images'
+        :key='`project_${project._id}_img_${img_idx}`'
+        >
+            <v-img :src='project.images[img_idx-1]'></v-img>
+        </v-carousel-item>
+
+        </v-carousel>
+        
         <v-card-text>
 
             <v-chip 
