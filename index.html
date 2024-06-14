@@ -38,11 +38,11 @@
           
             <template v-slot:default="{ isActive }">
               <v-card >
-                <v-card-title>
-                    Bio & Education 
+                <v-card-title class="d-flex">
+                    <span>Bio & Education </span>
                     <v-spacer></v-spacer>
                     <v-btn 
-                    icon="mdi-close" variant="plain" size="x-small"
+                    icon="mdi-close" variant="plain" size="small"
                     @click="isActive.value = false">
                     </v-btn>
                 </v-card-title>
