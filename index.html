@@ -57,9 +57,11 @@
                 <v-card-text>
                   <v-list>
                     <v-list-item>
+                        <template v-slot:prepend><v-icon>mdi-phone</v-icon></template>
                         540-505-4246
                     </v-list-item>
                     <v-list-item>
+                        <template v-slot:prepend><v-icon>mdi-email</v-icon></template>
                         clelland.douglas@gmail.com
                     </v-list-item>
                   </v-list>
@@ -69,8 +71,15 @@
                     Education:
                 </v-card-title>
                 <v-card-text>
-                  M.S. Computer Science (in progress) - Georgia Tech (2023-present)
-                  B.S. Engineering Science & Mechanics - Virginia Tech (2006-2010)
+                    <v-list>
+                        <v-list-item>
+                            <template v-slot:prepend><v-icon>mdi-school-outline</v-icon></template>
+                            M.S. Computer Science (in progress) - Georgia Tech (2023-present)
+                        </v-list-item>
+                        <v-list-item>
+                            <template v-slot:prepend><v-icon>mdi-school</v-icon></template>
+                            B.S. Engineering Science & Mechanics - Virginia Tech (2006-2010)
+                        </v-list-item>
                 </v-card-text>
           
               </v-card>
