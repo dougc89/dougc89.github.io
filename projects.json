@@ -610,5 +610,24 @@
             "MongoDB",
             "Azure"
         ]
+    },
+    {
+        "_id": 35,
+        "title": "In-Service Training",
+        "date": "2024-08",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Training record for employees facilitating law enforcment re-certification.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure",
+            "Python"
+        ]
     }
 ]
