@@ -44,7 +44,7 @@
                         src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/LinkedIn.jpg"
                         ></v-img>
                     </v-avatar>
-                    Doug Clelland
+                    <div class="text-h4 ml-4">Doug Clelland</div>
                 </template>
                 <template v-slot:append>
                     <v-btn 
@@ -53,9 +53,6 @@
                     </v-btn>
                 </template>
 
-                <v-card-title>
-                    Contact Info:
-                </v-card-title>
                 <v-card-text>
                   <v-list>
                     <v-list-item href="tel:+15405054246">
@@ -66,22 +63,24 @@
                         <template v-slot:prepend><v-icon class="d-none d-sm-flex">mdi-email</v-icon></template>
                         clelland.douglas@gmail.com
                     </v-list-item>
-                  </v-list>
-                </v-card-text>
 
-                <v-card-title>
-                    Education:
-                </v-card-title>
-                <v-card-text>
-                    <v-list>
-                        <v-list-item value="1">
-                            <template v-slot:prepend><v-icon>mdi-school-outline</v-icon></template>
-                            M.S. Computer Science (in progress) - Georgia Tech (2023-present)
-                        </v-list-item>
-                        <v-list-item value="2">
-                            <template v-slot:prepend><v-icon>mdi-school</v-icon></template>
-                            B.S. Engineering Science & Mechanics - Virginia Tech (2006-2010)
-                        </v-list-item>
+                    <v-list-item type="divider">
+                    </v-list-item>
+
+                    <v-list-item type="subheader">
+                        Education:
+                    </v-list-item>
+
+                    <v-list-item value="1">
+                        <template v-slot:prepend><v-icon>mdi-school-outline</v-icon></template>
+                        M.S. Computer Science (in progress) - Georgia Tech (2023-present)
+                    </v-list-item>
+                    <v-list-item value="2">
+                        <template v-slot:prepend><v-icon>mdi-school</v-icon></template>
+                        B.S. Engineering Science & Mechanics - Virginia Tech (2006-2010)
+                    </v-list-item>
+                    
+                  </v-list>
                 </v-card-text>
           
               </v-card>
