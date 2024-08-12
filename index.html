@@ -44,6 +44,7 @@
                         src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/LinkedIn.jpg"
                         ></v-img>
                     </v-avatar>
+                    Doug Clelland
                 </template>
                 <template v-slot:append>
                     <v-btn 
@@ -51,16 +52,17 @@
                     @click="isActive.value = false">
                     </v-btn>
                 </template>
+
                 <v-card-title>
                     Contact Info:
                 </v-card-title>
                 <v-card-text>
                   <v-list>
-                    <v-list-item>
+                    <v-list-item href="tel:+15405054246">
                         <template v-slot:prepend><v-icon>mdi-phone</v-icon></template>
                         540-505-4246
                     </v-list-item>
-                    <v-list-item>
+                    <v-list-item href="mailto:clelland.douglas@gmail.com" target="_blank">
                         <template v-slot:prepend><v-icon>mdi-email</v-icon></template>
                         clelland.douglas@gmail.com
                     </v-list-item>
