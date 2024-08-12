@@ -18,6 +18,12 @@
         min-width:480px;
         margin-right: calc(50% - 460px);
     }
+    .v-card-item{
+        padding-right: 10px;
+    }
+    .v-card-item__append{
+        align-self: start;
+    }
 }
 @media (min-width: 2000px){
     .project-list{
