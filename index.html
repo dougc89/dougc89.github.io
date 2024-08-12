@@ -39,7 +39,7 @@
             <template v-slot:default="{ isActive }">
               <v-card >
                 <template v-slot:prepend>
-                    <v-avatar size="80">
+                    <v-avatar size="80" class="d-none d-sm-flex">
                         <v-img
                         src="https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/LinkedIn.jpg"
                         ></v-img>
@@ -56,11 +56,11 @@
                 <v-card-text>
                   <v-list>
                     <v-list-item href="tel:+15405054246">
-                        <template v-slot:prepend><v-icon class="d-none d-sm-flex">mdi-phone</v-icon></template>
+                        <template v-slot:prepend class="d-none d-sm-flex"><v-icon>mdi-phone</v-icon></template>
                         540-505-4246
                     </v-list-item>
                     <v-list-item href="mailto:clelland.douglas@gmail.com" target="_blank">
-                        <template v-slot:prepend><v-icon class="d-none d-sm-flex">mdi-email</v-icon></template>
+                        <template v-slot:prepend class="d-none d-sm-flex"><v-icon>mdi-email</v-icon></template>
                         clelland.douglas@gmail.com
                     </v-list-item>
 
@@ -70,14 +70,22 @@
                         Education:
                     </v-list-item>
 
-                    <v-list-item value="1">
+                    <v-list-item value="1" title="M.S. Computer Science (in progress)" subtitle="Georgia Tech (2023-present)">
                         <template v-slot:prepend><v-icon>mdi-school-outline</v-icon></template>
-                        M.S. Computer Science (in progress) - Georgia Tech (2023-present)
                     </v-list-item>
-                    <v-list-item value="2">
+                    <v-list-item value="2" title="B.S. Engineering Science & Mechanics" subtitle="Virginia Tech (2006-2010)">
                         <template v-slot:prepend><v-icon>mdi-school</v-icon></template>
-                        B.S. Engineering Science & Mechanics - Virginia Tech (2006-2010)
                     </v-list-item>
+
+                    <v-divider></v-divider>
+
+                    <v-list-item type="subheader">
+                        Work History:
+                    </v-list-item>
+
+                    <v-list-item value="5" title="Senior Web Developer" subtitle="Lake Co. Sheriff's Office (Nov 2022 - present)"></v-list-item>
+                    <v-list-item value="4" title="Programmer" subtitle="Lake Co. Sheriff's Office (Jun 2019 - Nov 2022)"></v-list-item>
+                    <v-list-item value="3" title="High School Teacher - Math & C.S." subtitle="Lake County Schools (Aug 2014 - May 2019)"></v-list-item>
 
                   </v-list>
                 </v-card-text>
