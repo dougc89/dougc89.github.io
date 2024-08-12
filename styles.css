@@ -12,6 +12,16 @@
     margin-right: auto;
     margin-top: 72px;
 }  
+
+@media (min-width: 600px){
+    .v-card-item{
+        padding-right: 10px;
+    }
+    .v-card-item__append{
+        align-self: start;
+    }
+}
+
 @media (min-width: 1280px){
     .project-list{
         max-width: 600px;
@@ -25,6 +35,7 @@
         align-self: start;
     }
 }
+
 @media (min-width: 2000px){
     .project-list{
         max-width: 1200px;
