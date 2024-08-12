@@ -45,16 +45,32 @@
                         ></v-img>
                     </v-avatar>
                 </template>
-                <v-card-title class="d-flex">
-                    <span>Bio & Education </span>
-                    <v-spacer></v-spacer>
+                <template v-slot:append>
                     <v-btn 
                     icon="mdi-close" variant="plain" size="small"
                     @click="isActive.value = false">
                     </v-btn>
+                </template>
+                <v-card-title>
+                    Contact Info:
                 </v-card-title>
                 <v-card-text>
-                  Lorem ipsum dolor sit amet......
+                  <v-list>
+                    <v-list-item>
+                        540-505-4246
+                    </v-list-item>
+                    <v-list-item>
+                        clelland.douglas@gmail.com
+                    </v-list-item>
+                  </v-list>
+                </v-card-text>
+
+                <v-card-title>
+                    Education:
+                </v-card-title>
+                <v-card-text>
+                  M.S. Computer Science (in progress) - Georgia Tech (2023-present)
+                  B.S. Engineering Science & Mechanics - Virginia Tech (2006-2010)
                 </v-card-text>
           
               </v-card>
