@@ -592,5 +592,23 @@
             "Bootstrap",
             "SQL Server"
         ]
+    },
+    {
+        "_id": 34,
+        "title": "Legal Updates",
+        "date": "2024-07",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Internal notices about upcoming statute changes, as it pertains to law enforcement.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure"
+        ]
     }
 ]
