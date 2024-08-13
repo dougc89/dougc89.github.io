@@ -1,5 +1,48 @@
 [
     {
+        "_id": 43,
+        "title": "Robotic Localization - Spaceship",
+        "date": "2024-02",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: AI for Robotics",
+        "description": "In a simulated 2D spaceship environment, implemented localization through particle filters and kalman filters to plan a safe path to destination.",
+        "skills": [
+            "Python",
+            "Robotics",
+            "Path Planning",
+            "Localization",
+            "Particle Filters",
+            "Kalman Filters",
+        ]
+    },
+    {
+        "_id": 42,
+        "title": "Warehouse Path Planning",
+        "date": "2024-04",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: AI for Robotics",
+        "description": "In a simulated warehouse environment, implemented optimized path planning for robotic delivery of goods, including collision prevention.",
+        "skills": [
+            "Python",
+            "Robotics",
+            "Path Planning"
+        ]
+    },
+    {
+        "_id": 41,
+        "title": "Drone SLAM Navigation",
+        "date": "2024-04",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: AI for Robotics",
+        "description": "Implemented SLAM (simultaneous localization and mapping) for a simulation of a drone navigating a forest of trees to reach a target.",
+        "skills": [
+            "Python",
+            "Robotics",
+            "SLAM",
+            "Localization"
+        ]
+    },
+    {
         "_id": 40,
         "title": "Drone PID Controller",
         "date": "2024-03",
@@ -8,8 +51,8 @@
         "description": "Implemented a PID controller for a 2-axis drone simulator.",
         "skills": [
             "Python",
-            "PID", 
             "Robotics",
+            "PID", 
         ]
     },
     {
