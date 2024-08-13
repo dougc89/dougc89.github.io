@@ -1,5 +1,31 @@
 [
     {
+        "_id": 40,
+        "title": "Drone PID Controller",
+        "date": "2024-03",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: AI for Robotics",
+        "description": "Implemented a PID controller for a 2-axis drone simulator.",
+        "skills": [
+            "Python",
+            "PID", 
+            "Robotics",
+        ]
+    },
+    {
+        "_id": 39,
+        "title": "Random Forest Trading Bot",
+        "date": "2024-07",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: Machine Learning for Trading",
+        "description": "Implemented a random forest learner for classifying buy/sell signals from stock market technical indicators. Profitable in simulation.",
+        "skills": [
+            "Python",
+            "pandas",
+            "Random Forest",
+        ]
+    },
+    {
         "_id": 36,
         "title": "LCSO Org Chart",
         "date": "2023-11",
@@ -259,7 +285,7 @@
         "date": "2023-05",
         "job_title": "Senior Web Developer",
         "employer": "Lake County Sheriff's Office",
-        "description": "When an inmate has done a bad thing while in jail and needs some more jail... (solitary confinement) this needs a management process and I built it.",
+        "description": "In compliance with inmate management regulations, any additional loss of privileges during confinement (e.g. solitary) require a review board process. This app digitizes the documentation of that disciplinary review process.",
         "skills": [
             "PHP",
             "Python",
@@ -594,7 +620,7 @@
         ]
     },
     {
-        "_id": 34,
+        "_id": 37,
         "title": "Legal Updates",
         "date": "2024-07",
         "job_title": "Senior Web Developer",
@@ -612,7 +638,7 @@
         ]
     },
     {
-        "_id": 35,
+        "_id": 38,
         "title": "In-Service Training",
         "date": "2024-08",
         "job_title": "Senior Web Developer",
