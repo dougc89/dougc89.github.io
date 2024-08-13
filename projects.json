@@ -1,7 +1,59 @@
 [
     {
+        "_id": 47,
+        "title": "Sign Language HMM",
+        "date": "2023-12",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: Intro to AI",
+        "description": "Implemented Hidden Markov Model (HMM) for classification of American Sign Language phrases.",
+        "skills": [
+            "Python",
+            "HMM",
+        ]
+    },
+    {
+        "_id": 46,
+        "title": "Image Preprocessing",
+        "date": "2023-11",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: Intro to AI",
+        "description": "Implemented basic image preprocessing, in the context of computer vision.",
+        "skills": [
+            "Python",
+            "Computer Vision",
+            "k-Means",
+            "Bayes Network",
+            "Gaussian Mixture Model",
+        ]
+    },
+    {
+        "_id": 45,
+        "title": "Isolation Game AI",
+        "date": "2023-09",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: Intro to AI",
+        "description": "Implemented a game-playing AI agent to win in a simulation of the tabletop game called Isolation, against both human opponents and other AI agents.",
+        "skills": [
+            "Python",
+            "Adversarial Search",
+            "Alpha/Beta Pruning",
+        ]
+    },
+    {
+        "_id": 44,
+        "title": "Road Navigation",
+        "date": "2023-08",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course: Intro to AI",
+        "description": "Using road network data, planned optimized paths for navigation problems through European cities and Atlanta, GA.",
+        "skills": [
+            "Python",
+            "Path Planning",
+        ]
+    },
+    {
         "_id": 43,
-        "title": "Robotic Localization - Spaceship",
+        "title": "Spaceship Localization",
         "date": "2024-02",
         "employer": "Georgia Tech",
         "job_title": "Master's Course: AI for Robotics",
