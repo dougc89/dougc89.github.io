@@ -23,7 +23,7 @@
         variant="text"
         class="d-lg-none"
         ></v-app-bar-nav-icon>
-        <v-toolbar-title>Skills</v-toolbar-title>
+        <v-toolbar-title @click.stop="show_drawer = !show_drawer">Skills</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-dialog max-width="80vw">
             <template v-slot:activator="{ props: activatorProps }">
