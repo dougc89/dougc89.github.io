@@ -8,7 +8,7 @@
         "description": "Implemented Hidden Markov Model (HMM) for classification of American Sign Language phrases.",
         "skills": [
             "Python",
-            "HMM",
+            "HMM"
         ]
     },
     {
@@ -23,7 +23,7 @@
             "Computer Vision",
             "k-Means",
             "Bayes Network",
-            "Gaussian Mixture Model",
+            "Gaussian Mixture Model"
         ]
     },
     {
@@ -36,7 +36,7 @@
         "skills": [
             "Python",
             "Adversarial Search",
-            "Alpha/Beta Pruning",
+            "Alpha/Beta Pruning"
         ]
     },
     {
@@ -48,7 +48,7 @@
         "description": "Using road network data, planned optimized paths for navigation problems through European cities and Atlanta, GA.",
         "skills": [
             "Python",
-            "Path Planning",
+            "Path Planning"
         ]
     },
     {
@@ -64,7 +64,7 @@
             "Path Planning",
             "Localization",
             "Particle Filters",
-            "Kalman Filters",
+            "Kalman Filters"
         ]
     },
     {
@@ -104,7 +104,7 @@
         "skills": [
             "Python",
             "Robotics",
-            "PID", 
+            "PID"
         ]
     },
     {
@@ -117,7 +117,7 @@
         "skills": [
             "Python",
             "pandas",
-            "Random Forest",
+            "Random Forest"
         ]
     },
     {
