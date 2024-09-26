@@ -122,6 +122,7 @@
     ></skills-drawer>
 
     <div v-if="filtered_projects && filtered_projects.length" class="project-list">
+        <h2 class="text-center">Project Portfolio</h2>
         <project-card 
         v-for="project in filtered_projects" 
         :key="`project_${project._id}`"
