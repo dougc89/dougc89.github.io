@@ -1,5 +1,71 @@
 [
     {
+        "_id": 51,
+        "title": "Tuition Reimbursement",
+        "favorite":true,
+        "date": "2024-08",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Internal approval process for reimbursement of tuition expenses, per our agency continuing education benefit policy.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "_id": 50,
+        "title": "User Account Management",
+        "favorite":true,
+        "date": "2024-10",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Fully automated our agency's user account creation, modification, and termination.",
+        "skills": [
+            "Python",
+            "PHP",
+            "JS",
+            "Powershell",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure",
+        ]
+    },
+    {
+        "_id": 49,
+        "title": "AR Video Overlay & Panorama Stitching",
+        "date": "2024-09",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Computer Vision",
+        "description": "Implemented marker recognition and image overlay in static images and video. Bonus challenge problem included stitching panoramic photos via RANSAC algorithm for homography image projections.",
+        "skills": [
+            "Computer Vision",
+            "Python",
+            "OpenCV",
+            "C#"
+        ]
+    },
+    {
+        "_id": 48,
+        "title": "Game Agent Path Planning",
+        "date": "2024-09",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Game AI",
+        "description": "Implemented A* and nav-mesh path planning algorithms in basic 3D simulation.",
+        "skills": [
+            "Path Planning",
+            "Unity",
+            "C#"
+        ]
+    },
+    {
         "_id": 47,
         "title": "Sign Language HMM",
         "date": "2023-12",
