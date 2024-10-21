@@ -1,5 +1,48 @@
 [
     {
+        "_id": 54,
+        "title": "Workday Data Migration",
+        "date": "2024-10",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Prepared Workday (HCM enterprise solution) data migration from legacy systems.",
+        "skills": [
+            "Python",
+            "SQL",
+            "NoSQL",
+            "MongoDB",
+            "Workday"
+        ]
+    },
+    {
+        "_id": 53,
+        "title": "Game Agent - Path Planning",
+        "date": "2024-10",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Game AI",
+        "description": "Implemented projectile motion planning for a dodgeball game AI agent.",
+        "skills": [
+            "Unity",
+            "C#",
+            "Finite State Machine"
+        ]
+    },
+    {
+        "_id": 52,
+        "title": "Motion Detection & Pedestrian Tracking",
+        "date": "2024-10",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Computer Vision",
+        "description": "Utilized Kalman and Particle Filters along with template matching to identify and track pedestrian motion in video.",
+        "skills": [
+            "Computer Vision",
+            "Python",
+            "OpenCV",
+            "Particle Filters",
+            "Kalman Filters"
+        ]
+    },
+    {
         "_id": 51,
         "title": "Tuition Reimbursement",
         "date": "2024-08",
@@ -48,13 +91,12 @@
         "skills": [
             "Computer Vision",
             "Python",
-            "OpenCV",
-            "C#"
+            "OpenCV"
         ]
     },
     {
         "_id": 48,
-        "title": "Game Agent Path Planning",
+        "title": "Game Agent - Path Planning",
         "date": "2024-09",
         "employer": "Georgia Tech",
         "job_title": "Master's Course - Game AI",
