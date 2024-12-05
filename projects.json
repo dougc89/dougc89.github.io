@@ -1,5 +1,89 @@
 [
     {
+        "_id": 60,
+        "title": "Christmas Savings Club",
+        "date": "2024-12",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Online enrollments and balance tracking for a post-tax holiday savings program offered as an employee benefit at our workplace.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "_id": 59,
+        "title": "3D Depth Perception via Stereo Correspondence",
+        "date": "2024-12",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Computer Vision",
+        "description": "Computed pixel disparity stereo correspondence between left and right images of a scene in order to estimate 3D depth of objects.",
+        "skills": [
+            "Computer Vision",
+            "Python",
+            "OpenCV"
+        ]
+    },
+    {
+        "_id": 58,
+        "title": "Image Classification & Facial Recognition",
+        "date": "2024-11",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Computer Vision",
+        "description": "Utilized eigenvector representations of faces and decision trees to perform human facial recognition within an image.",
+        "skills": [
+            "Computer Vision",
+            "Python",
+            "OpenCV",
+            "Decision Trees",
+            "Facial Recognition"
+        ]
+    },
+    {
+        "_id": 57,
+        "title": "Game Agent - Procedural Generation",
+        "date": "2024-11",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Game AI",
+        "description": "Designed distinct 3D biomes using Perlin Noise generation.",
+        "skills": [
+            "Unity",
+            "C#",
+            "Procedural Generation"
+        ]
+    },
+    {
+        "_id": 56,
+        "title": "Game Agent - Racetrack",
+        "date": "2024-11",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Game AI",
+        "description": "Utilized fuzzy logic rules to balance conflicting motivations of an AI agent, in order to drive a curvy racetrack as fast as possible without flipping or crashing.",
+        "skills": [
+            "Unity",
+            "C#",
+            "Fuzzy Logic"
+        ]
+    },
+    {
+        "_id": 55,
+        "title": "Game Agent - Dodgeball Tournament",
+        "date": "2024-10",
+        "employer": "Georgia Tech",
+        "job_title": "Master's Course - Game AI",
+        "description": "Implemented dodgeball game AI agent's finint states, such as collect/attack/evade/rescue. Placed 2nd in the class tournament!",
+        "skills": [
+            "Unity",
+            "C#",
+            "Finite State Machine"
+        ]
+    },
+    {
         "_id": 54,
         "title": "Workday Data Migration",
         "date": "2024-10",
@@ -16,11 +100,11 @@
     },
     {
         "_id": 53,
-        "title": "Game Agent - Path Planning",
+        "title": "Game Agent - Projectile Targeting",
         "date": "2024-10",
         "employer": "Georgia Tech",
         "job_title": "Master's Course - Game AI",
-        "description": "Implemented projectile motion planning for a dodgeball game AI agent.",
+        "description": "Implemented projectile motion planning for a dodgeball game AI agent, in order to aim and hit a moving target.",
         "skills": [
             "Unity",
             "C#",
