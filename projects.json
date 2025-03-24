@@ -1,5 +1,66 @@
 [
     {
+        "_id": 64,
+        "title": "Pingboard Sync",
+        "date": "2020-12",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Integrate a 3rd party org chart software with our internal directory.",
+        "skills": [
+            "Python",
+            "RESTful API",
+            "Pingboard",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 63,
+        "title": "Oncall Calendar",
+        "date": "2022-04",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Contacts repository 24-7 on-call staff, including a Freshservice integration for after-hours IT help requests.",
+        "skills": [
+            "PHP",
+            "JS",
+            "Vue.js",
+            "Vuetify",
+            "RESTful API",
+            "MySQL",
+            "Freshservice",
+            "Integrations"
+        ]
+    },
+    {
+        "_id": 62,
+        "title": "Ninite Licenses",
+        "date": "2021-11",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Compare assigned licenses in an application deployment software, Ninite, with active computers in our AD to identify/remove orphaned licenses.",
+        "skills": [
+            "PHP",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 61,
+        "title": "Fleetio Sync",
+        "date": "2024-05",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Sync user permissions and vehicle assignment syncs with our agency directory.",
+        "skills": [
+            "Python",
+            "RESTful API",
+            "NoSQL",
+            "MongoDB",
+            "Azure",
+            "Microsoft Graph",
+            "Integrations"
+        ]
+    },
+    {
         "_id": 60,
         "title": "Christmas Savings Club",
         "date": "2024-12",
@@ -695,7 +756,8 @@
             "JS",
             "Bootstrap",
             "MySQL",
-            "Paypal IPN"
+            "Paypal",
+            "Integrations"
         ]
     },
     {
@@ -709,14 +771,13 @@
             "PHP",
             "Python",
             "Pyppeteer",
-
             "JS",
             "Vue.js",
             "Vuetify",
             "RESTful API",
-
             "MySQL",
-            "Twilio"
+            "Twilio",
+            "Integrations"
         ]
     },
     {
