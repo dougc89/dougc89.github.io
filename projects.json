@@ -1,4 +1,18 @@
 [
+                {
+        "_id": 76,
+        "title": "Workday Vendor Integrations",
+        "date": "2025-02",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Coordinated implementation of integrations between 10 different vendors, as part of our Workday deployment.",
+        "skills": [
+            "Python",
+            "RESTful API",
+                "Workday", 
+            "Integrations"
+        ]
+    },
         {
         "_id": 75,
         "title": "Sheriff App Integration",
