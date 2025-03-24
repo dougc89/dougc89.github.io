@@ -1,4 +1,89 @@
 [
+        {
+        "_id": 71,
+        "title": "MorphoTrak JMS Integration",
+        "date": "2024-07",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Assisted with the implementation of a MorphoTrak integration with our jail management system, Xjail.",
+        "skills": [
+            "Batch",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 70,
+        "title": "Asset Panda User Management",
+        "date": "2021-08",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Automate user creation and permission assignment via an authenticated browser bot.",
+        "skills": [
+            "Python",
+            "Selenium",
+            "Integrations"
+        ]
+    },
+    {
+        "_id": 69,
+        "title": "Fusus Active Calls Integration",
+        "date": "2022-01",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Integrate our CAD/RMS system with a camera streaming application, Fusus, for our real-time crime center.",
+        "skills": [
+            "PHP",
+            "RESTful API",
+            "XML",
+            "Integrations"
+        ]
+    },
+    {
+        "_id": 68,
+        "title": "Verkada Photos Integration",
+        "date": "2024-11",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Automatically import photos into our access control application, Verkada, when employee badge photos are captured in our org chart application.",
+        "skills": [
+            "Python",
+            "NoSQL",
+            "MongoDB",
+            "Azure",
+            "Microsoft Graph",
+            "Verkada",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 67,
+        "title": "Criminal Justice Data Transparency Reporting",
+        "date": "2022-07",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Integrate our inmate management system and staff roster for FDLE state reporting.",
+        "skills": [
+            "PHP",
+            "RESTful API",
+            "XML",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 65,
+        "title": "Ripplestone Email Notifications",
+        "date": "2024-11",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Integrate an old Crystal Reports scheduler with modern Office 365 email notifications.",
+        "skills": [
+            "Python",
+            "Crystal Reports",
+            "Azure",
+            "Microsoft Graph",
+            "Integrations"
+        ]
+    },
     {
         "_id": 64,
         "title": "Pingboard Sync",
@@ -28,6 +113,18 @@
             "RESTful API",
             "MySQL",
             "Freshservice",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 66,
+        "title": "Xjail Licenses",
+        "date": "2021-11",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Compare assigned licenses in an inmate management software, Xjail, with active computers in our AD to identify/remove orphaned licenses.",
+        "skills": [
+            "PHP",
             "Integrations"
         ]
     },
