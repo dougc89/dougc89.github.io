@@ -1,5 +1,61 @@
 [
         {
+        "_id": 75,
+        "title": "Sheriff App Integration",
+        "date": "2021-06",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Import recent arrest public records from our CAD/RMS to our agency website.",
+        "skills": [
+            "PHP",
+            "MySQL",
+                "SQL",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 74,
+        "title": "Sheriff App Integration",
+        "date": "2021-07",
+        "job_title": "Programmer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Send recent arrest public records via SFTP to a 3rd party vendor, TheSheriffApp.",
+        "skills": [
+            "PHP",
+            "MySQL",
+                "XML",
+                "SFTP",
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 73,
+        "title": "Axon Compliance Reminders",
+        "date": "2022-12",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Warning notifications to supervisors about out-of-compliance digital evidence and taser hardware maintenance in their area of supervision.",
+        "skills": [
+            "Python",
+            "RESTful API",
+                "Axon", 
+            "Integrations"
+        ]
+    },
+        {
+        "_id": 72,
+        "title": "TraCS to CarFax Integration",
+        "date": "2024-07",
+        "job_title": "Senior Web Developer",
+        "employer": "Lake County Sheriff's Office",
+        "description": "Connecting the xml file output from vehicle crash reports to CarFax.",
+        "skills": [
+            "Python",
+                "SFTP",
+            "Integrations"
+        ]
+    },
+        {
         "_id": 71,
         "title": "MorphoTrak JMS Integration",
         "date": "2024-07",
