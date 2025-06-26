@@ -538,7 +538,7 @@
         "description": "Implemented a random forest learner for classifying buy/sell signals from stock market technical indicators. Profitable in simulation.",
         "skills": [
             "Python",
-            "pandas",
+            "pandas", "scikit-learn",
             "Random Forest",
             "Decision Trees"
         ]
