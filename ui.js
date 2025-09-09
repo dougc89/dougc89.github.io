@@ -50,8 +50,9 @@ const app = createApp({
 
             // sort the projects by date completed (newest first, with favorites at the top)
             this.projects = this.projects.sort( (a,b) => { 
+                if(a.favorite && b.favorite) return b.date.localeCompare(a.date) 
                 if(a.favorite || b.favorite) return a.favorite ? -1 : 1
-                return b.date.localeCompare(a.date) 
+                else return b.date.localeCompare(a.date) 
             })
 
             // count the projects where I have used each skill
