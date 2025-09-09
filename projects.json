@@ -249,8 +249,13 @@
         "title": "3D Depth Perception via Stereo Correspondence",
         "date": "2024-12",
         "employer": "Georgia Tech",
+        "favorite":true,
         "job_title": "Master's Course - Computer Vision",
-        "description": "Computed pixel disparity stereo correspondence between left and right images of a scene in order to estimate 3D depth of objects.",
+        "images":[
+            "https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/stereo_motorcycles.png",
+            "https://raw.githubusercontent.com/dougc89/dougc89.github.io/main/images/stereo_umbrellas.png"
+        ],
+        "description": "Computed pixel disparity for stereo correspondence between left and right images of a scene in order to estimate 3D depth of objects. This was an assignment that required we write the vision algorithm from scratch using available research papers only, not to use any published tools.",
         "skills": [
             "Computer Vision",
             "Python",
