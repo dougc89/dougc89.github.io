@@ -384,7 +384,7 @@
         "date": "2024-10",
         "job_title": "Senior Web Developer",
         "employer": "Lake County Sheriff's Office",
-        "description": "Fully automated our agency's user account creation, modification, and termination.",
+        "description": "Fully automated our agency's user account creation, modification, and termination, processing hundreds of employee changes each year that used to be performed manually.",
         "skills": [
             "Python",
             "PHP",
